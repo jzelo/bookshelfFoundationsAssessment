@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bookshelf</title>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+
+    <body>
+        <h1 class="bookHead">Books</h1>
+            <div class="bookshelf">Bookshelf</div>
+            <div class="banner">
+                 <h1 class="banh1">Library</h1>
+                 <h2 class="banh2">Where to look for books</h2>
+                </div>
+                <main>
+                    <form class="search-form">
+                      <input type="text" class="search-query" placeholder="Search books">
+                      <button type="submit">Search</button>
+                    </form>
+                    <div class="buttons">
+                      <button class="titleB">Sort by Title</button>
+                      <button class="authorB">Sort by Author</button>
+                      <button class="subjectB">Sort by subject</button>
+                      <button class="add">Add Book To List</button>
+                    </div>
+                    <div id="bookshelf"></div>
+                    <form class="addBookForm">
+                        <label class="title">Title:</label>
+                        <input type="text" id="title" placeholder="Enter book title">
+                        <label class="author">Author:</label>
+                        <input type="text" id="author" placeholder="Enter book author">
+                        <label class="language">Language:</label>
+                        <input type="text" class="language" placeholder="Enter book language">
+                        <label class="subject">Subject:</label>
+                        <input type="text" id="subject" placeholder="Enter book subject">
+                        <button type="submit">Add Book</button>
+                      </form>
+                  </main>
+        <script src="js/index.js"></script>
+        <script src="js/book-data.js" class="book-info"></script>
+    </body>
+</html>
+      

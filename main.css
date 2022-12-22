@@ -1,0 +1,109 @@
+/* set the font and background color for the bookshelf */
+.bookHead {
+    font-style: italic;
+    padding: 2rem;
+    background-color: #4cabfe96;
+    align-items: right;
+    
+}
+.bookshelf {
+    border-bottom: 5rem;
+    font-size: large;
+    width: 100%;
+
+}
+banner{
+    background-color: #333;
+    height: 100px;
+    width: 100%;
+}
+.banh1 {
+    font-style: italic;
+}
+
+ul {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 4rem;
+  }
+  
+  /* set the font size, color, and style for the book titles */
+  li {
+    font-size: 18px;
+    color: #333;
+    font-style: italic;
+    padding: 10px;
+  }
+
+  .buttons button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+    background-color: #eee;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .search-query {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1;
+  }
+
+ /* Add some spacing and layout to the forms */
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  
+  /* Style the input fields and buttons */
+  input[type="text"], button[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Make the search button different */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  /* Style the clear button */
+  button[type="button"] {
+    background-color: #bbbbbb;
+    color: white;
+  }
+  
+  /* Style the bookshelf */
+  #bookshelf {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  /* Style the book elements */
+  #bookshelf li {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #bbbbbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  
